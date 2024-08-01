@@ -7,7 +7,6 @@ export default function Descp() {
   return (
     <div className="Descp">
       <img src={DescpImg} alt="" />
-      
       <div className="Descp__Info">
         <p>EXPERIENCES</p>
         <h1>We Provide You The Best Experience</h1>

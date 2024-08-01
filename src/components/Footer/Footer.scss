@@ -1,0 +1,47 @@
+.Footer {
+  width: 1500px;
+  height: 462px;
+  background-color: #bababa;
+  margin:  auto;
+  &__Section {
+    width: 1080px;
+    height: 146px;
+    position: absolute;
+    margin-left: 119px;
+    margin-top: 190px;
+    display: flex;
+  }
+  &__Section__Descp {
+    width: 293px;
+    margin-top: 50px;
+    margin-left: -80px;
+    opacity: 0.8;
+  }
+  &__Section__Service {
+    margin-left: 80px;
+    margin-top: 15px;
+    padding-top: -15px;
+    font-size: 20px;
+    display: flex;
+    ul {
+      margin-left: 70px;
+    }
+    li {
+      color: black;
+      margin-top: 10px;
+      list-style: none;
+      cursor: pointer;
+    }
+    li > a {
+      color: black;
+      text-decoration: none;
+    }
+    li > img {
+      width: 50px;
+      height: 50px;
+    }
+    ul > li > strong {
+      color: orange;
+    }
+  }
+}

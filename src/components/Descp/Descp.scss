@@ -1,0 +1,88 @@
+.Descp {
+  width: 1604px;
+  height: 1329px;
+  margin: auto;
+  position: relative;
+  img {
+    width: 629px;
+    height: 445px;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 93px;
+    margin-left: 35px;
+    box-shadow: 6px 6px 5px rgb(182, 182, 181);
+  }
+  &__Info {
+    width: 556px;
+    height: 298px;
+    position: absolute;
+    left: 800px;
+    top: 150px;
+    p {
+      color: rgb(255, 178, 36);
+      font: 1em sans-serif;
+      font-weight: 700;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+    h1 {
+      width: 413px;
+      height: 104px;
+      font-size: 45px;
+      margin-top: 26px;
+      font-family: "Times New Roman", Times, serif;
+    }
+    span {
+      width: 556px;
+      height: 132px;
+      font-family: "Gilroy-Regular";
+      font-size: 18px;
+      line-height: 185%;
+      color: #1e1e1e;
+      margin-top: 29px;
+      opacity: 0.8;
+    }
+  }
+  &__Materials {
+    width: 556px;
+    height: 317px;
+    margin-top: 130px;
+    margin-left: 100px;
+
+    p {
+      color: rgb(255, 178, 36);
+      font: 1em sans-serif;
+      font-weight: 700;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+    h1 {
+      width: 413px;
+      height: 104px;
+      font-size: 45px;
+      margin-top: 26px;
+      font-family: "Times New Roman", Times, serif;
+    }
+    span {
+      width: 556px;
+      height: 132px;
+      font-family: "Gilroy-Regular";
+      font-size: 18px;
+      line-height: 185%;
+      color: #1e1e1e;
+      position: absolute;
+      bottom: 300px;
+      opacity: 0.8;
+    }
+  }
+  &__Materials__Img {
+    width: 900px;
+    height: 600px;
+    position: absolute;
+    right: 0;
+    bottom: 100px;
+    img {
+      width: 400px;
+      height: 300px;
+      margin-left: -10px;
+    }
+  }
+}
